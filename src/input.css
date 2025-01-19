@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mybtn{
+    @apply bg-brandColor text-white font-nunito font-semibold text-lg py-3 px-6 rounded-2xl transition-colors border-brandColor border-2 hover:bg-transparent hover:text-brandColor
+    duration-500
+}

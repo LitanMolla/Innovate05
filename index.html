@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovate 05 - Tailwind</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+
+    <!-- Font Awsome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Font Awsome -->
+
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body class="bg-imgBG bg-opacity-10">
+    <div class="max-w-containerMain m-auto">
+        <div class="navbar">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li>
+                    <a class="hover:text-hoverColor transition-all duration-500">Home</a>
+                    <ul class="p-2">
+                      <li><a class="hover:text-hoverColor transition-all duration-500">Home 1</a></li>
+                      <li><a class="hover:text-hoverColor transition-all duration-500">Home 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="hover:text-hoverColor transition-all duration-500">About</a></li>
+                  <li><a class="hover:text-hoverColor transition-all duration-500">Services</a></li>
+                  <li><a class="hover:text-hoverColor transition-all duration-500">Works</a></li>
+                  <li><a class="hover:text-hoverColor transition-all duration-500">Blog</a></li>
+                  <li><a class="hover:text-hoverColor transition-all duration-500">Contact</a></li>
+                </ul>
+              </div>
+              <a href="#">
+                <img src="assests/images/logo9.png" alt="Logo">
+              </a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 font-open text-lg font-semibold ">
+                <li><a class="hover:text-hoverColor transition-all duration-500 hover:bg-none hover:bg-transparent">Home</a></li>
+                <!-- <li>
+                  <details>
+                    <summary>Parent</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li> -->
+                <li><a class="hover:text-hoverColor transition-all duration-500">About</a></li>
+                <li><a class="hover:text-hoverColor transition-all duration-500">Services</a></li>
+                <li><a class="hover:text-hoverColor transition-all duration-500">Works</a></li>
+                <li><a class="hover:text-hoverColor transition-all duration-500">Blog</a></li>
+                <li><a class="hover:text-hoverColor transition-all duration-500">Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="mybtn" href="#">Contact Us</a>
+            </div>
+          </div>
+          <!-- =================================== -->
+           <div class="flex gap-x-[123px] items-center mt-20 mb-20">
+            <div class="flex-1">
+                <h1 class="capitalize text-[58px] font-bold font-open">Professional task manager tool to grow </h1>
+                <p class="font-nunito text-lg pl-5 border-l-4 border-hoverColor capitalize pr-10 my-10">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime.</p>
+                <form class="bg-gray-200 p-4 rounded-3xl flex mr-10" action="">
+                    <input class="flex-1 bg-transparent outline-0 capitalize" type="text" placeholder="Join with us using your gmail address">
+                    <a class="mybtn flex-shrink" href="">Sign up</a>
+                </form>
+            </div>
+            <div class="flex-1">
+                <picture>
+                    <img src="assests/images/Cards.png" alt="Banner Img">
+                </picture>
+            </div>
+           </div>
+           <!-- ========================================= -->
+
+           <div class="flex py-20">
+            <div class="flex-1 h-[130px] w-[210px]"><a href="#">
+                <img class="" src="assests/images/brandlogo.png" alt="Brand logo"></a>
+            </div>
+            <div class="flex-1 h-[130px] w-[210px]"><a href="#">
+                <img class="" src="assests/images/brandlogo.png" alt="Brand logo"></a>
+            </div>
+            <div class="flex-1 h-[130px] w-[210px]"><a href="#">
+                <img class="" src="assests/images/brandlogo.png" alt="Brand logo"></a>
+            </div>
+            <div class="flex-1 h-[130px] w-[210px]"><a href="#">
+                <img class="" src="assests/images/brandlogo.png" alt="Brand logo"></a>
+            </div>
+            <div class="flex-1 h-[130px] w-[210px]"><a href="#">
+                <img class="" src="assests/images/brandlogo.png" alt="Brand logo"></a>
+            </div>
+            <div class="flex-1 h-[130px] w-[210px]"><a href="#">
+                <img class="" src="assests/images/brandlogo.png" alt="Brand logo"></a>
+            </div>
+           </div>
+           <!-- ==================================================== -->
+
+           <div class="flex items-center mb-24">
+            <div class="flex-1">
+                <h1 class="capitalize font-open font-bold text-6xl pr-28 leading-[140%]">The best solutions in one tool</h1>
+            </div>
+            <div class="flex-1">
+                <p class="capitalize font-nunito text-lg pl-5 border-l-4 border-hoverColor">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus temporibus autem.</p>
+            </div>
+           </div>
+           <div class="flex gap-x-7 mb-7">
+            <div class="flex-1">
+              <div class="bg-white border border-brandColor rounded-3xl p-6 transition-all duration-500 hover:bg-brandColor hover:text-white">
+                <div class="flex gap-x-5 items-center">
+                  <i class="fa-regular fa-clock text-3xl p-2 rounded-lg bg-hoverColor bg-opacity-25"></i>
+                  <h class="font-open font-bold text-[28px]">Set Daily Alarms</h>
+                </div>
+                <p class="font-nunito text-lg my-6 pr-2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
+                <a class="font-nunito font-semibold text-[20px]" href="#">Read more</a>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="bg-white border border-brandColor rounded-3xl p-6 transition-all duration-500 hover:bg-brandColor hover:text-white">
+                <div class="flex gap-x-5 items-center">
+                  <i class="fa-solid fa-magnifying-glass text-3xl p-2 rounded-lg bg-hoverColor bg-opacity-25"></i>
+                  <h class="font-open font-bold text-[28px]">Advanced Search</h>
+                </div>
+                <p class="font-nunito text-lg my-6 pr-2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
+                <a class="font-nunito font-semibold text-[20px]" href="#">Read more</a>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="bg-white border border-brandColor rounded-3xl p-6 transition-all duration-500 hover:bg-brandColor hover:text-white">
+                <div class="flex gap-x-5 items-center">
+                  <i class="fa-solid fa-paper-plane text-3xl p-2 rounded-lg bg-hoverColor bg-opacity-25"></i>
+                  <h class="font-open font-bold text-[28px]">Share Blog Posts</h>
+                </div>
+                <p class="font-nunito text-lg my-6 pr-2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
+                <a class="font-nunito font-semibold text-[20px]" href="#">Read more</a>
+              </div>
+            </div>
+           </div>
+           <div class="flex gap-x-7 mb-[120px]">
+            <div class="flex-1">
+              <div class="bg-white border border-brandColor rounded-3xl p-6 transition-all duration-500 hover:bg-brandColor hover:text-white">
+                <div class="flex gap-x-5 items-center">
+                  <i class="fa-regular fa-clock text-3xl p-2 rounded-lg bg-hoverColor bg-opacity-25"></i>
+                  <h class="font-open font-bold text-[28px]">Archive Content</h>
+                </div>
+                <p class="font-nunito text-lg my-6 pr-2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
+                <a class="font-nunito font-semibold text-[20px]" href="#">Read more</a>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="bg-white border border-brandColor rounded-3xl p-6 transition-all duration-500 hover:bg-brandColor hover:text-white">
+                <div class="flex gap-x-5 items-center">
+                  <i class="fa-solid fa-money-check text-3xl p-2 rounded-lg bg-hoverColor bg-opacity-25"></i>
+                  <h class="font-open font-bold text-[28px]">Secure Checkout</h>
+                </div>
+                <p class="font-nunito text-lg my-6 pr-2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
+                <a class="font-nunito font-semibold text-[20px]" href="#">Read more</a>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="bg-white border border-brandColor rounded-3xl p-6 transition-all duration-500 hover:bg-brandColor hover:text-white">
+                <div class="flex gap-x-5 items-center">
+                  <i class="fa-regular fa-clock text-3xl p-2 rounded-lg bg-hoverColor bg-opacity-25"></i>
+                  <h class="font-open font-bold text-[28px]">Faster Response Time</h>
+                </div>
+                <p class="font-nunito text-lg my-6 pr-2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
+                <a class="font-nunito font-semibold text-[20px]" href="#">Read more</a>
+              </div>
+            </div>
+           </div>
+           <!-- ========================================================= -->
+
+           <div class="flex gap-x-[120px] py-24 items-center">
+            <div class="flex-1">
+              <picture>
+                <img src="assests/images/Cards2.png" alt="Card img" class="w-full">
+              </picture>
+            </div>
+            <div class="flex-1">
+              <h1 class="font-open font-bold text-[56px] capitalize">Join with any business tasks and any goals</h1>
+              <p class="font-nunito text-lg mt-6 mb-14">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus temporibus autem.</p>
+              <a class="mybtn" href="#">Sign up</a>
+            </div>
+           </div>
+           <!-- ====================================================== -->
+
+           <div class="bg-gray-200 rounded-2xl py-10 px-5 mb-24">
+            <ul class="flex justify-between">
+              <li><a class="font-nunito text-xl font-semibold hover:bg-brandColor px-14 rounded-2xl py-5 hover:text-white text-brandColor transition-all duration-500" href="#">Artificial Intelligence</a></li>
+              <li><a class="font-nunito text-xl font-semibold hover:bg-brandColor px-14 rounded-2xl py-5 hover:text-white text-brandColor transition-all duration-500" href="#">Header Builder</a></li>
+              <li><a class="font-nunito text-xl font-semibold hover:bg-brandColor px-14 rounded-2xl py-5 hover:text-white text-brandColor transition-all duration-500" href="#">Safe and Private</a></li>
+              <li><a class="font-nunito text-xl font-semibold hover:bg-brandColor px-14 rounded-2xl py-5 hover:text-white text-brandColor transition-all duration-500" href="#">Mobility Solutions</a></li>
+            </ul>
+           </div>
+           <!-- ================================================================= -->
+
+           <div class="flex items-center mb-[120px]">
+            <div class="flex-1 px-10">
+              <picture>
+                <img src="assests/images/card3.png" alt="Card Img" class="w-full">
+              </picture>
+            </div>
+            <div class="flex-1 px-10">
+              <h1 class="font-open font-bold text-[56px] capitalize">No more messy distribution lists.</h1>
+              <p class="font-nunito text-lg mt-6 mb-14">Install any demo or template with a single click. You can mix and match all the demos & templates. Every demo can be turned into one or multi-page. You can also use the shop features for all demos.</p>
+              <a class="mybtn" href="#">Get Started</a>
+            </div>
+           </div>
+           <!-- ============================== -->
+            <div class="text-center px-[350px] mb-20">
+              <h1 class="capitalize font-open font-bold text-[56px]">Build the right plan for your team.</h1>
+              <div class="flex justify-center items-center gap-x-5 mt-5">
+                <h2 class="font-nunito font-bold text-[28px]">Monthly</h2>
+                <div class="h-10 w-20 bg-brandColor rounded-3xl relative">
+                  <span class="absolute top-1/2 -translate-y-1/2 left-2 h-7 w-7 rounded-full bg-white"></span>
+                </div>
+                <h2 class="font-nunito font-bold text-[28px]">Yearly</h2>
+              </div>
+            </div>
+            <!--  -->
+            <div class="flex gap-x-7">
+              <div class="flex-1 bg-white shadow-xl p-12 rounded-3xl transition-all duration-500 hover:bg-productBG hover:text-white group">
+                <h1 class="font-open font-bold text-4xl mb-12">Intro</h1>
+                <div class="flex justify-between mb-7">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Hosting Space</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">700GB</h2>
+                </div>
+                <div class="flex justify-between mb-7">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Emails</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">Unlimited</h2>
+                </div>
+                <div class="flex justify-between mb-7">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Pricing Feature</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">Unlimited</h2>
+                </div>
+                <div class="flex justify-between mb-7">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Bonus Plugins</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">Not Avai.</h2>
+                </div>
+                <div class="flex justify-between mb-12">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Exclusive Support</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">Not Avai.</h2>
+                </div>
+                <a class="font-nunito font-semibold text-lg text-brandColor px-10 py-5 bg-brandColor bg-opacity-15 rounded-2xl group-hover:text-white group-hover:bg-opacity-100 transition-all duration-500" href="#">Get started</a>
+              </div>
+              <div class="flex-1 bg-white shadow-xl p-12 rounded-3xl transition-all duration-500 hover:bg-productBG hover:text-white group relative top-[-40px]">
+                <h1 class="font-open font-bold text-4xl mb-12">Pro</h1>
+                <div class="flex justify-between mb-7">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Hosting Space</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">700GB</h2>
+                </div>
+                <div class="flex justify-between mb-7">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Emails</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">Unlimited</h2>
+                </div>
+                <div class="flex justify-between mb-7">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Pricing Feature</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">Unlimited</h2>
+                </div>
+                <div class="flex justify-between mb-7">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Bonus Plugins</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">Not Avai.</h2>
+                </div>
+                <div class="flex justify-between mb-12">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Exclusive Support</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">Not Avai.</h2>
+                </div>
+                <a class="font-nunito font-semibold text-lg text-brandColor px-10 py-5 bg-brandColor bg-opacity-15 rounded-2xl group-hover:text-white group-hover:bg-opacity-100 transition-all duration-500" href="#">Get started</a>
+              </div>
+              <div class="flex-1 bg-white shadow-xl p-12 rounded-3xl transition-all duration-500 hover:bg-productBG hover:text-white group relative hover:top-[-40p]">
+                <h1 class="font-open font-bold text-4xl mb-12">Exclusive</h1>
+                <div class="flex justify-between mb-7">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Hosting Space</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">900GB</h2>
+                </div>
+                <div class="flex justify-between mb-7">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Emails</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">Unlimited</h2>
+                </div>
+                <div class="flex justify-between mb-7">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Pricing Feature</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">Unlimited</h2>
+                </div>
+                <div class="flex justify-between mb-7">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Bonus Plugins</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">Available</h2>
+                </div>
+                <div class="flex justify-between mb-12">
+                  <div class="flex font-nunito text-xl items-center gap-x-3">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>Exclusive Support</p>
+                  </div>
+                  <h2 class="font-nunito font-bold text-brandColor group-hover:text-white">Available</h2>
+                </div>
+                <a class="font-nunito font-semibold text-lg text-brandColor px-10 py-5 bg-brandColor bg-opacity-15 rounded-2xl group-hover:text-white group-hover:bg-opacity-100 transition-all duration-500" href="#">Get started</a>
+              </div>
+            </div>
+            <!--  -->
+            <div class="flex my-[120px] items-center">
+              <div class="flex-1">
+                <div class="flex items-center gap-x-4">
+                  <svg width="79" height="172" viewBox="0 0 79 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M45.3751 165.745C30.9874 156.128 19.7747 142.461 13.1548 126.471C6.53486 110.481 4.8051 92.8875 8.18423 75.9148C11.5634 58.942 19.8996 43.3525 32.1388 31.1175C44.378 18.                8825 59.9705 10.5516 76.9444 7.17834" stroke="#8454F5" stroke-width="13"/>
+                  </svg>
+                  <a href="#"><i class="fa-solid fa-circle-play text-[140px] text-holud -ml-16 mt-3 relative"></i></a>
+                  <p class="capitalize font-nunito font-semibold text-2xl">Watch a demo</p>
+                </div>
+              </div>
+              <div class="flex-2">
+                <div class="flex">
+                  <div class="flex-1">
+                    <h1 class="font-open font-semibold text-[64px]">2.8x</h1>
+                    <p class="font-nunito text-lg">We are ultra faste deal service</p>
+                  </div>
+                  <div class="flex-1">
+                    <h1 class="font-open font-semibold text-[64px]">2.8x</h1>
+                    <p class="font-nunito text-lg">We are ultra faste deal service</p>
+                  </div>
+                  <div class="flex-1">
+                    <h1 class="font-open font-semibold text-[64px]">2.8x</h1>
+                    <p class="font-nunito text-lg">We are ultra faste deal service</p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <!--  -->
+
+            <div class="flex my-[120px]">
+              <p class="capitalize font-open font-bold text-[56px] flex-1">Build the right plan for your team.</p>
+              <p class="flex-1"></p>
+            </div>
+            <!--  -->
+
+            <div class="flex gap-x-7">
+              <div class="flex-1">
+                <picture>
+                  <img src="assests/images/man.jpg" alt="" class="w-full rounded-3xl border border-brandColor">
+                </picture>
+              </div>
+              <div class="flex-1">
+                <p class="font-nunito text-xl capitalize">As a leading digital platform in Paris, we look to engage with our clients beyond the conventional design and development agency relationship, becoming a partner to the people and companies we work with.</p>
+                <h1 class="font-open font-semibold text-4xl mt-5 mb-3">Jonathon</h1>
+                <div class="flex gap-x-5 text-2xl text-brandColor my-10">
+                  <div class="border border-brandColor h-10 w-10 flex items-center justify-center rounded-full transition-all duration-500 hover:bg-brandColor hover:text-white">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                  </div>
+                  <div class="border border-brandColor h-10 w-10 flex items-center justify-center rounded-full transition-all duration-500 hover:bg-brandColor hover:text-white">
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  </div>
+                  <div class="border border-brandColor h-10 w-10 flex items-center justify-center rounded-full transition-all duration-500 hover:bg-brandColor hover:text-white">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </div>
+                </div>
+                <div class="flex gap-x-5">
+                  <a class="mybtn" href="#"><i class="fa-solid fa-angle-left"></i></a>
+                  <a class="mybtn" href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+              </div>
+              <div class="flex-1">
+
+                <picture>
+                  <img src="assests/images/Users.png" alt="Users" class="w-full pl-[70px]">
+                </picture>
+              </div>
+            </div>
+            <!--  -->
+
+            <div class="max-w-[60%] m-auto my-[150px] text-center">
+              <h1 class="capitalize font-open font-bold text-[56px]">Ready to get started? Start your free trial.</h1>
+              <p class="font-nunito text-xl my-10">Free 30 days trial   <span class="px-5">|</span>   Exclusive Support   <span class="px-5">|</span>   No Fees</p>
+              <div class="flex gap-x-7">
+                <input type="text" placeholder="Enter your email" class="border-none bg-brandColor bg-opacity-15 pl-5 flex-1 outline-0 rounded-2xl">
+                <a class="mybtn flex-shrink-0" href="#">Try For Free</a>
+              </div>
+            </div>
+            <!--  -->
+
+            <div class="flex">
+              <div class="flex-1">
+                <picture>
+                  <img src="assests/images/logo9.png" alt="Logo">
+                  <p class="capitalize font-nunito text-lg mt-5">Install any demo or template with a single click. You can mix and match all the demos & templates. Every demo can be turned into one or multi-page.</p>
+                </picture>
+              </div>
+              <div class="flex-2 ml-20">
+                <div class="flex capitalize">
+                  <div class="flex-1">
+                    <h3 class="font-open font-semibold text-2xl pb-3">Features</h3>
+                    <ul>
+                      <li class="mt-4"><a href="#" class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-hoverColor hover:border-b hover:border-hoverColor">Home</a></li>
+                      <li class="mt-4"><a href="#" class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-hoverColor hover:border-b hover:border-hoverColor">About</a></li>
+                      <li class="mt-4"><a href="#" class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-hoverColor hover:border-b hover:border-hoverColor">Benifit</a></li>
+                      <li class="mt-4"><a href="#" class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-hoverColor hover:border-b hover:border-hoverColor">Pricing</a></li>
+                      <li class="mt-4"><a href="#" class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-hoverColor hover:border-b hover:border-hoverColor">Blog</a></li>
+                    </ul>
+                  </div>
+                  <div class="flex-1">
+                    <h3 class="font-open font-semibold text-2xl pb-3">Products</h3>
+                    <ul>
+                      <li class="mt-4"><a href="#" class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-hoverColor hover:border-b hover:border-hoverColor">Task Management</a></li>
+                      <li class="mt-4"><a href="#" class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-hoverColor hover:border-b hover:border-hoverColor">Company growth</a></li>
+                      <li class="mt-4"><a href="#" class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-hoverColor hover:border-b hover:border-hoverColor">Time tracking</a></li>
+                    </ul>
+                  </div>
+                  <div class="flex-1">
+                    <h3 class="font-open font-semibold text-2xl pb-3">Support</h3>
+                    <ul>
+                      <li class="mt-4"><a href="#" class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-hoverColor hover:border-b hover:border-hoverColor">Customer service</a></li>
+                      <li class="mt-4"><a href="#" class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-hoverColor hover:border-b hover:border-hoverColor">Accessibility</a></li>
+                      <li class="mt-4"><a href="#" class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-hoverColor hover:border-b hover:border-hoverColor">Contact us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+
+            <div class="flex justify-between py-10">
+              <div class="">
+                <p class="font-nunito capitalize text-lg">@20201 Innovate.All rights reserved.</p>
+              </div>
+              <div class="flex gap-x-5">
+                <a href="#" class="font-nunito capitalize text-lg transition-all duration-500 hover:text-hoverColor hover:border-b hover:border-hoverColor">Privacy policy</a>
+                <a href="#" class="font-nunito capitalize text-lg transition-all duration-500 hover:text-hoverColor hover:border-b hover:border-hoverColor">Terms & condition</a>
+              </div>
+            </div>
+    </div>
+</body>
+</html>
+
